@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: voicebox-postgres
+    environment:
+      POSTGRES_USER: voicebox
+      POSTGRES_PASSWORD: voicebox
+      POSTGRES_DB: voicebox
+    ports:
+      - "5432:5432"
+    volumes:
+      - voicebox_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U voicebox -d voicebox"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  voicebox_pg_data:
