@@ -2,6 +2,48 @@
 
 AI 语音硬件 ToB SaaS 控制台，覆盖租户管理、ESP32 设备运维、语音对话运营、后台用户管理、行业分析和告警日志。
 
+## 界面展示
+
+### 总览
+
+![总览](imags/image.png)
+
+### 租户管理
+
+![租户管理](imags/image%20copy.png)
+
+### 设备运维
+
+![设备运维](imags/image%20copy%202.png)
+
+### 网络时序
+
+![网络时序](imags/image%20copy%203.png)
+
+### 角色 Prompt
+
+![角色 Prompt](imags/image%20copy%204.png)
+
+### 用户运营
+
+![用户运营](imags/image%20copy%205.png)
+
+### 链路观测
+
+![链路观测](imags/image%20copy%206.png)
+
+### 后台用户
+
+![后台用户](imags/image%20copy%207.png)
+
+### 行业分析
+
+![行业分析](imags/image%20copy%208.png)
+
+### 告警日志
+
+![告警日志](imags/image%20copy%209.png)
+
 ## 技术栈
 
 - Frontend: React + TypeScript + Vite
